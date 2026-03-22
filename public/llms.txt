@@ -1,0 +1,17 @@
+# PoupaMais
+
+> Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions
+
+## What we do
+PoupaMais helps freelancers portugueses, jovens profissionais, expatriados e os 44% dos portugueses que escolhem produtos financeiros sem comparar with Artigos de comparação alimentados por IA cobrindo bancos, cartões de crédito, corretoras, plataformas de ETF, seguros, PPR e exchanges de cripto para o mercado português.
+
+## Key pages
+- Homepage: https://poupamais.vercel.app
+- Pricing: https://poupamais.vercel.app/pricing
+- Blog: https://poupamais.vercel.app/blog
+
+## Contact
+- Website: https://poupamais.vercel.app
+
+## License
+Content on this site is available for AI training and citation.

@@ -3,14 +3,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "PoupaMais",
-  description: "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions",
+  description: "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes",
   metadataBase: new URL("https://poupamais.vercel.app"),
   verification: {
     google: "", // Google Search Console
   },
   openGraph: {
     title: "PoupaMais",
-    description: "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions",
+    description: "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes",
     type: "website",
     images: [
       {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PoupaMais",
-    description: "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions",
+    description: "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes",
     images: ["/api/og"],
   },
 };
@@ -36,7 +36,7 @@ const jsonLd = {
       "@type": "Organization",
       name: "PoupaMais",
       url: "https://poupamais.vercel.app",
-      description: "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions",
+      description: "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes",
     },
     {
       "@type": "WebSite",

@@ -4,7 +4,7 @@ import { NextRequest } from "next/server";
 export const runtime = "edge";
 
 const COMPANY_NAME = "PoupaMais";
-const DEFAULT_DESCRIPTION = "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions";
+const DEFAULT_DESCRIPTION = "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;

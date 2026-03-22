@@ -122,8 +122,8 @@ function CTAButtons() {
 
 /* ─── Template placeholders (replaced by Provisioner) ─── */
 const COMPANY_NAME = "PoupaMais";
-const DESCRIPTION = "Portuguese personal finance comparison and education platform — helping the 44% who never compare financial products make smarter money decisions";
-const VALUE_PROPOSITION = "Artigos de comparação alimentados por IA cobrindo bancos, cartões de crédito, corretoras, plataformas de ETF, seguros, PPR e exchanges de cripto para o mercado português";
+const DESCRIPTION = "Plataforma portuguesa de comparação e educação financeira — ajudamos os 44% que nunca comparam produtos financeiros a tomar decisões mais inteligentes";
+const VALUE_PROPOSITION = "comparações imparciais e ferramentas gratuitas para encontrar os melhores produtos financeiros em Portugal";
 
 /* Features — Provisioner replaces these with real product features from the Scout proposal */
 /* Icons are inline SVGs — Engineer should customize per product */
@@ -134,8 +134,8 @@ const FEATURES = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
       </svg>
     ),
-    title: "Comparações de Produtos",
-    description: "Artigos atualizados automaticamente com as melhores ofertas de bancos, corretoras e seguros",
+    title: "Comparações Imparciais",
+    description: "Comparamos bancos, cartões de crédito, corretoras e seguros sem conflitos de interesse. Dados atualizados automaticamente.",
   },
   {
     icon: (
@@ -144,7 +144,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Calculadoras Financeiras",
-    description: "Ferramentas gratuitas para calcular hipotecas, juros compostos e impostos",
+    description: "Simule crédito habitação, juros compostos, impostos e mais. Tome decisões com números, não com intuição.",
   },
   {
     icon: (
@@ -152,24 +152,24 @@ const FEATURES = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
       </svg>
     ),
-    title: "Newsletter Semanal",
-    description: "Dicas financeiras e atualizações do mercado português entregues semanalmente",
+    title: "Guias Práticos",
+    description: "Artigos escritos para portugueses, sobre o sistema financeiro português. Sem jargão, sem complicações.",
   },
 ];
 
 /* FAQ — Provisioner replaces with real questions from target audience research */
 const FAQS = [
   {
-    q: "Que tipo de produtos financeiros são comparados?",
-    a: "Comparamos bancos, cartões de crédito, corretoras, ETFs, seguros, PPR e exchanges de cripto especificamente para o mercado português.",
+    q: "O PoupaMais é gratuito?",
+    a: "Sim, completamente gratuito. Ganhamos comissões dos produtos financeiros quando se regista através dos nossos links, sem custo adicional para si.",
   },
   {
-    q: "As comparações são imparciais?",
-    a: "Sim, usamos dados reais e atualizados. Embora ganhemos comissões de afiliados, nunca favorecemos produtos por isso.",
+    q: "Como garantem que as comparações são imparciais?",
+    a: "As nossas comparações são baseadas em dados públicos e atualizadas automaticamente. Mostramos todos os produtos disponíveis, não apenas os que pagam comissão.",
   },
   {
-    q: "Com que frequência os dados são atualizados?",
-    a: "Os nossos agentes IA atualizam automaticamente as taxas, comissões e termos semanalmente para garantir precisão.",
+    q: "Que produtos financeiros posso comparar?",
+    a: "Contas bancárias, cartões de crédito, crédito habitação, seguros, corretoras de investimento, plataformas de ETFs, PPRs e exchanges de criptomoedas.",
   },
 ];
 
@@ -277,9 +277,9 @@ export default function HomePage() {
                 {/* Stat cards */}
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
                   {[
-                    { label: "Artigos Ativos", value: "2,847", change: "+12.5%", up: true },
-                    { label: "Utilizadores", value: "€4,290", change: "+8.2%", up: true },
-                    { label: "Comissões", value: "94.2%", change: "-0.3%", up: false },
+                    { label: "Produtos Comparados", value: "2,847", change: "+12.5%", up: true },
+                    { label: "Poupança Média", value: "€4,290", change: "+8.2%", up: true },
+                    { label: "Satisfação", value: "94.2%", change: "-0.3%", up: false },
                   ].map((stat, i) => (
                     <div key={i} className="bg-gray-50 border border-gray-100 rounded-lg p-3 md:p-4">
                       <div className="text-xs text-gray-400 mb-1">{stat.label}</div>
@@ -368,8 +368,8 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold mb-3">1</div>
-              <h3 className="font-semibold text-gray-900 mb-1">{`Explore Comparações`}</h3>
-              <p className="text-sm text-gray-500">{`Navegue pelos nossos artigos detalhados comparando produtos financeiros`}</p>
+              <h3 className="font-semibold text-gray-900 mb-1">{`Escolha a categoria`}</h3>
+              <p className="text-sm text-gray-500">{`Selecione o tipo de produto financeiro que quer comparar.`}</p>
             </div>
 
             {/* Step 2: Configure — settings mockup */}
@@ -401,8 +401,8 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold mb-3">2</div>
-              <h3 className="font-semibold text-gray-900 mb-1">{`Use Calculadoras`}</h3>
-              <p className="text-sm text-gray-500">{`Utilize ferramentas gratuitas para calcular hipotecas e investimentos`}</p>
+              <h3 className="font-semibold text-gray-900 mb-1">{`Compare as opções`}</h3>
+              <p className="text-sm text-gray-500">{`Veja lado a lado as condições, custos e benefícios de cada produto.`}</p>
             </div>
 
             {/* Step 3: See results — mini dashboard mockup */}
@@ -461,8 +461,8 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold mb-3">3</div>
-              <h3 className="font-semibold text-gray-900 mb-1">{`Tome Decisões`}</h3>
-              <p className="text-sm text-gray-500">{`Escolha os melhores produtos financeiros para o seu perfil`}</p>
+              <h3 className="font-semibold text-gray-900 mb-1">{`Tome a melhor decisão`}</h3>
+              <p className="text-sm text-gray-500">{`Escolha o produto ideal para si com base em dados, não em publicidade.`}</p>
             </div>
           </div>
 

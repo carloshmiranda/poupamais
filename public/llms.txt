@@ -1,0 +1,17 @@
+# PoupaMais
+
+> Plataforma inteligente de poupanças para consumidores portugueses
+
+## What we do
+PoupaMais helps consumidores portugueses que querem poupar dinheiro de forma inteligente with Ajudamos portugueses a poupar mais dinheiro através de dicas personalizadas e metas automatizadas.
+
+## Key pages
+- Homepage: https://poupamais.vercel.app
+- Pricing: https://poupamais.vercel.app/pricing
+- Blog: https://poupamais.vercel.app/blog
+
+## Contact
+- Website: https://poupamais.vercel.app
+
+## License
+Content on this site is available for AI training and citation.
